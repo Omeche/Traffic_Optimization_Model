@@ -153,7 +153,7 @@ class TrafficSignalController:
         
         Args:
             cycle_time: Total cycle time (s)
-            phase_ratios: List of ratios for each phase (should sum to 1)
+            phase_ratios: List of ratios for each phase (should sum to 1.0)
             
         Returns:
             List of green times
