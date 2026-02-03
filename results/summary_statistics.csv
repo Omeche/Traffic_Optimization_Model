@@ -1,0 +1,8 @@
+Parameter,Mean,Std Dev,Min,Max
+Total Vehicles,17.76,5.95,4.00,34.00
+Average Speed (m/s),1.98,1.87,0.00,9.08
+Pedestrian Count,5.20,4.21,0.00,22.00
+Traffic Density,0.01,0.00,0.00,0.01
+Cycle Time (s),109.73,14.81,60.00,120.00
+Phase 1 Green (s),31.19,6.40,11.50,45.00
+Pedestrian Green (s),24.45,7.07,7.00,30.00

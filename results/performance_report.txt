@@ -1,0 +1,187 @@
+TRAFFIC SIGNAL OPTIMIZATION - MODEL PERFORMANCE REPORT
+
+
+Decision Tree
+----------------------------------------
+Overall Performance:
+  Training MAE:   2.951 seconds
+  Test MAE:       4.232 seconds
+  Training RMSE:  4.903 seconds
+  Test RMSE:      7.031 seconds
+  Training R²:    0.595
+  Test R²:        0.039
+
+Target-wise Performance:
+  cycle_time:
+    MAE:  9.396 seconds
+    RMSE: 14.202 seconds
+    R²:   -0.033
+  phase_1_green:
+    MAE:  4.971 seconds
+    RMSE: 6.188 seconds
+    R²:   -0.251
+  phase_2_green:
+    MAE:  3.642 seconds
+    RMSE: 4.600 seconds
+    R²:   -0.055
+  phase_3_green:
+    MAE:  3.862 seconds
+    RMSE: 4.838 seconds
+    R²:   -0.247
+  phase_4_green:
+    MAE:  2.446 seconds
+    RMSE: 3.054 seconds
+    R²:   -0.117
+  pedestrian_green:
+    MAE:  1.074 seconds
+    RMSE: 1.645 seconds
+    R²:   0.935
+
+Random Forest
+----------------------------------------
+Overall Performance:
+  Training MAE:   2.480 seconds
+  Test MAE:       3.755 seconds
+  Training RMSE:  4.026 seconds
+  Test RMSE:      6.035 seconds
+  Training R²:    0.732
+  Test R²:        0.278
+
+Target-wise Performance:
+  cycle_time:
+    MAE:  8.560 seconds
+    RMSE: 12.113 seconds
+    R²:   0.248
+  phase_1_green:
+    MAE:  4.292 seconds
+    RMSE: 5.357 seconds
+    R²:   0.063
+  phase_2_green:
+    MAE:  3.295 seconds
+    RMSE: 4.189 seconds
+    R²:   0.125
+  phase_3_green:
+    MAE:  3.264 seconds
+    RMSE: 4.056 seconds
+    R²:   0.124
+  phase_4_green:
+    MAE:  2.128 seconds
+    RMSE: 2.655 seconds
+    R²:   0.156
+  pedestrian_green:
+    MAE:  0.989 seconds
+    RMSE: 1.445 seconds
+    R²:   0.950
+
+Gradient Boosting
+----------------------------------------
+Overall Performance:
+  Training MAE:   1.619 seconds
+  Test MAE:       3.846 seconds
+  Training RMSE:  2.487 seconds
+  Test RMSE:      6.160 seconds
+  Training R²:    0.876
+  Test R²:        0.237
+
+Target-wise Performance:
+  cycle_time:
+    MAE:  8.688 seconds
+    RMSE: 12.332 seconds
+    R²:   0.221
+  phase_1_green:
+    MAE:  4.378 seconds
+    RMSE: 5.406 seconds
+    R²:   0.045
+  phase_2_green:
+    MAE:  3.334 seconds
+    RMSE: 4.267 seconds
+    R²:   0.092
+  phase_3_green:
+    MAE:  3.422 seconds
+    RMSE: 4.254 seconds
+    R²:   0.036
+  phase_4_green:
+    MAE:  2.192 seconds
+    RMSE: 2.764 seconds
+    R²:   0.085
+  pedestrian_green:
+    MAE:  1.063 seconds
+    RMSE: 1.544 seconds
+    R²:   0.943
+
+SVR
+----------------------------------------
+Overall Performance:
+  Training MAE:   2.974 seconds
+  Test MAE:       3.800 seconds
+  Training RMSE:  5.677 seconds
+  Test RMSE:      6.327 seconds
+  Training R²:    0.522
+  Test R²:        0.194
+
+Target-wise Performance:
+  cycle_time:
+    MAE:  7.958 seconds
+    RMSE: 12.622 seconds
+    R²:   0.184
+  phase_1_green:
+    MAE:  4.450 seconds
+    RMSE: 5.641 seconds
+    R²:   -0.039
+  phase_2_green:
+    MAE:  3.546 seconds
+    RMSE: 4.479 seconds
+    R²:   -0.000
+  phase_3_green:
+    MAE:  3.341 seconds
+    RMSE: 4.215 seconds
+    R²:   0.054
+  phase_4_green:
+    MAE:  2.246 seconds
+    RMSE: 2.828 seconds
+    R²:   0.042
+  pedestrian_green:
+    MAE:  1.263 seconds
+    RMSE: 1.803 seconds
+    R²:   0.922
+
+Neural Network
+----------------------------------------
+Overall Performance:
+  Training MAE:   3.721 seconds
+  Test MAE:       4.286 seconds
+  Training RMSE:  5.889 seconds
+  Test RMSE:      6.733 seconds
+  Training R²:    0.460
+  Test R²:        0.151
+
+Target-wise Performance:
+  cycle_time:
+    MAE:  10.237 seconds
+    RMSE: 13.712 seconds
+    R²:   0.037
+  phase_1_green:
+    MAE:  4.694 seconds
+    RMSE: 5.856 seconds
+    R²:   -0.120
+  phase_2_green:
+    MAE:  3.553 seconds
+    RMSE: 4.423 seconds
+    R²:   0.025
+  phase_3_green:
+    MAE:  3.611 seconds
+    RMSE: 4.394 seconds
+    R²:   -0.028
+  phase_4_green:
+    MAE:  2.228 seconds
+    RMSE: 2.788 seconds
+    R²:   0.069
+  pedestrian_green:
+    MAE:  1.393 seconds
+    RMSE: 1.751 seconds
+    R²:   0.927
+
+
+BEST MODEL: Random Forest
+Test MAE: 3.755 seconds
+Test R²:  0.278

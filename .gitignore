@@ -1,0 +1,30 @@
+# Virtual Environment
+env/
+venv/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Large model files (optional - keep if you want to share trained models)
+*.pkl
+
+# Proprietary dataset - DO NOT SHARE PUBLICLY
+data/raw/inD-dataset-v1.1/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
