@@ -21,7 +21,7 @@ def ensure_dir(path):
 # Pipeline runner
 def run_complete_pipeline(data_path, sample_recordings=None):
     """
-    Run the complete pipeline from start to finish
+    Run the complete pipeline 
 
     Args:
         data_path: Path containing inD CSV files
