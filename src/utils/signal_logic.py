@@ -67,7 +67,7 @@ class TrafficSignalController:
         if x >= 0.95:
             x = 0.95
         
-        # Webster's delay formula (simplified)
+        # Webster's delay formula 
         uniform_delay = (cycle_time * (1 - capacity)**2) / (2 * (1 - x * capacity))
         
         # Add random delay component
